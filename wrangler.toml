@@ -1,4 +1,4 @@
-name = "zn-villa-site-bot"
+name = "wa-villa-combined"
 main = "src/index.js"
 compatibility_date = "2026-07-01"
 
