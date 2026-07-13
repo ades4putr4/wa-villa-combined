@@ -1,0 +1,12 @@
+name = "zn-villa-site-bot"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+# Folder berisi index.html (website) yang akan disajikan otomatis
+# untuk semua request selain /webhook.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# FONNTE_TOKEN sengaja TIDAK ditulis di sini demi keamanan.
+# Isi lewat perintah: wrangler secret put FONNTE_TOKEN
